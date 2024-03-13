@@ -1,12 +1,15 @@
 .choresText {
    color:magenta;
-   font-family: 'Franklin Gothic Medium';
-   font-size: 1.7vw;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 19px;
    text-align: left;
    text-decoration-line: underline;
    font-style: italic;
 }
 
 .choresHeading {
+   text-align: left;
    color: black;
+   font-size: 24px;
+   font-weight: bold;
 }

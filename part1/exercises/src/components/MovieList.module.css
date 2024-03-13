@@ -1,9 +1,13 @@
 .movieText {
    color: teal;
-   font-size: 1.3vw;
+   font-size: 19px;
    text-align: left;
+   text-decoration: underline;
 }
 
 .movieHeading {
+   color:orangered;
    text-align: left;
+   font-size: 24px;
+   font-weight: bold;
 }
