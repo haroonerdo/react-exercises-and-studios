@@ -7,9 +7,9 @@ export default function BookList() {
    return (
       <div>
          <h3>{pageTitle}</h3>
-         <img style ={{height: "500px"}} src={book1} alt="Forth Wing by Rebecca Yarros" />
-         <img style ={{height: "500px"}} src={book2} alt="The Silent Patient by Alex Michselides" />
-         <img style ={{height: "500px"}} src={book3} alt="Atomic Habits by James Clear" />
+         <img style ={{height: "400px"}} src={book1} alt="Forth Wing by Rebecca Yarros" />
+         <img style ={{height: "400px"}} src={book2} alt="The Silent Patient by Alex Michselides" />
+         <img style ={{height: "400px"}} src={book3} alt="Atomic Habits by James Clear" />
       </div>      
    );
 }

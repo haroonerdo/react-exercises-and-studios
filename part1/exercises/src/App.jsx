@@ -11,8 +11,8 @@ function App() {
       <HobbyLinks />
       <div className="similarComponents">
       <MovieList />
-      <ChoresList />
       <BookList />
+      <ChoresList />
     </div>  
     </div>
   );
