@@ -5,21 +5,18 @@ import RecipeIngredients from './components/Ingredients.jsx';
 import RecipePhoto from './components/Photos.jsx';
 
 function App() {
-
   return (
-  
+    <>
+    
   <div className="App">
-    <div>
+        <RecipeDescription />
+        <RecipeIngredients />
       <div className='recipePhotoBlock'>
-      <RecipeDescription />
-      <RecipeIngredients />
-      <RecipePhoto />
-        </div>
+        <RecipePhoto />
       </div>
    </div>
-  
-  
-  )
+   </>
+  );
 }
 
-export default App
+export default App;
